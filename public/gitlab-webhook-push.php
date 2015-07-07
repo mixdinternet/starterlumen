@@ -54,7 +54,7 @@ $password = 'OldkE32dNwp';
  *
  * This setting is OPTIONAL
  */
-$ref = 'refs/heads/develop';
+$ref = 'refs/heads/master';
 
 // THE ACTUAL SCRIPT
 // -----------------
