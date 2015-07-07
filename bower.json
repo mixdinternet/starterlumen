@@ -1,0 +1,13 @@
+{
+  "name": "Starter Lumen",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery-validate": "~1.14.0",
+    "jquery-maskedinput": "~1.4.1",
+    "jquery-maskmoney": "~3.0.2",
+    "html5shiv": "~3.7.2",
+    "modernizr": "~2.8.3",
+    "slick-carousel": "~1.5.5",
+    "fontawesome": "~4.3.0"
+  }
+}

@@ -1,0 +1,8 @@
+/vendor
+/node_modules
+/nbproject
+/public/media/uploads
+/public/media/uploads_thumb
+/storage/database.sqlite
+.idea
+.env

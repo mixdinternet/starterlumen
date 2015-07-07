@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "laravel-elixir": "*",
+    "laravel-elixir-imagemin": "^0.1.6",
+    "gulp-connect-php": "0.0.5",
+    "laravel-elixir-browser-sync": "^0.1.7",
+    "laravel-elixir-serve": "^0.1.1",
+    "laravel-elixir-clean": "^0.1.1"
+  }
+}
