@@ -14,6 +14,7 @@ class EventServiceProvider extends ServiceProvider
     protected $listen = [
         'App\Events\SendContact' => [
             'App\Listeners\SendEmailContact',
+            'App\Listeners\SendToEleads',
         ],
     ];
 }
