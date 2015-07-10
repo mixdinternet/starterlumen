@@ -90,6 +90,7 @@ $(document).ready(function(){
         $('.jq-form-validate').each(function () {
             var id = $(this).attr('id');
             $("#" + id).validate({
+                errorElement: 'em',
                 errorPlacement: function (error, element) {
                     error.insertAfter(element);
                 }
