@@ -1,35 +1,50 @@
-## Starter Lumen PHP Framework
+## Starter Lumen
 
-## 1. Criando o projeto
+[![Total Downloads](https://poser.pugx.org/mixdinternet/starterlumen/downloads.svg)](https://packagist.org/packages/mixdinternet/starterlumen)
+[![License](https://poser.pugx.org/mixdinternet/starterlumen/license.svg)](https://packagist.org/packages/mixdinternet/starterlumen)
 
-git clone https://github.com/mixdinternet/starterlumen.git .
+Starter Lumen é uma aplicação para pequenos sites e landing pages utilizando o micro-framework Lumen 5.1
 
------------
+Starter Lumen possui como caracteristicas:
 
-## 2. Instalando os componentes
+1. Disparo de emails
 
-$ composer install
+2. Integração com gestor de leads (http://eleads.io)
 
------------
+3. Otimização dos titulos para SEO (https://packagist.org/packages/artesaos/seotools)
 
-## 3. Configurando o ambiente
+4. Pacotes frontend versionados com bower
 
-$ cp .env.example .env
+5. Automação dos arquivos less, scss, css e js e otimização das imagens utilizando gulp
 
------------
+6. Utilização do proprio php para gerar o servidor, não sendo necessário a instalação do apache
 
-## 4. Instalando o gulp
+### Instalação
 
-$ npm install
+Criando o projeto
 
------------
+`$ composer create mixdinternet/starterlumen lumen -s dev`
 
-## 5. Instalado as dependencias de javascript
+Instalando os componentes
 
-$ bower install
+`$ composer install`
 
------------
+Configurando o ambiente
 
-## 6. Executando o gulp
+`$ cp .env.example .env`
 
-$ gulp
+Instalando o gulp
+
+`$ npm install`
+
+Instalado as dependencias de javascript
+
+`$ bower install`
+
+Executando o gulp
+
+`$ gulp`
+
+### Licença
+
+Starter Lumen é open-source [MIT license](http://opensource.org/licenses/MIT)
