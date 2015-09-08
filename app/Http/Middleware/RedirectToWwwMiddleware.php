@@ -16,6 +16,7 @@ class RedirectToWwwMiddleware {
         $_server = $request->server();
         if((strpos($_server['HTTP_HOST'], ".mixd") === false)
             && (strpos($_server['HTTP_HOST'], "localhost") === false)
+            && (strpos($_server['HTTP_HOST'], "local") === false)
             && (strpos($_server['HTTP_HOST'], ".dev") === false)){
             $www = substr($_server['HTTP_HOST'], 0, 3);
             if($www !== 'www'){
